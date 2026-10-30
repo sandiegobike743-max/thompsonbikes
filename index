@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thompson Bikes | Tienda Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN CON LOGO -->
+    <header class="header-principal">
+        <div class="logo-container">
+            <img src="logo.png" alt="Thompson Bikes Logo" class="logo-img">
+            <span class="logo-texto">Thompson Bikes</span>
+        </div>
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#catalogo">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- BANNER DE BIENVENIDA -->
+    <section id="inicio" class="hero">
+        <h2>Encuentra tu bicicleta ideal</h2>
+        <p>Calidad, garantía y la mejor atención personalizada.</p>
+        <a href="#catalogo" class="btn-principal">Ver Catálogo</a>
+    </section>
+
+    <!-- CATÁLOGO DE PRODUCTOS -->
+    <main id="catalogo" class="contenedor-catalogo">
+        <h2>Nuestros Productos</h2>
+
+        <div class="grid-productos">
+            <!-- Producto 1 -->
+            <article class="tarjeta-producto">
+                <span class="etiqueta">Montaña</span>
+                <img src="bici-montana.jpg" alt="Bicicleta de Montaña Trail X">
+                <h3>Trail X - Montaña</h3>
+                <p class="descripcion">Ideal para senderos y terrenos difíciles. Frenos de disco y 21 velocidades.</p>
+                <div class="precio">$450.000 CLP</div>
+                <a href="https://wa.me/56912345678?text=Hola,%20me%20interesa%20la%20Bicicleta%20Trail%20X" class="btn-whatsapp" target="_blank">💬 Pedir por WhatsApp</a>
+            </article>
+
+            <!-- Producto 2 -->
+            <article class="tarjeta-producto">
+                <span class="etiqueta">Ruta</span>
+                <img src="bici-ruta.jpg" alt="Bicicleta de Ruta Speedster">
+                <h3>Speedster - Ruta</h3>
+                <p class="descripcion">Diseño ultraligero y aerodinámico para máxima velocidad en pavimento.</p>
+                <div class="precio">$780.000 CLP</div>
+                <a href="https://wa.me/56912345678?text=Hola,%20me%20interesa%20la%20Bicicleta%20Speedster" class="btn-whatsapp" target="_blank">💬 Pedir por WhatsApp</a>
+            </article>
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer id="contacto" class="pie-pagina">
+        <div class="info-contacto">
+            <h3>Thompson Bikes</h3>
+            <p>📍 Envíos a todo el país</p>
+            <p>📲 Atención Directa por WhatsApp</p>
+        </div>
+        <p class="copyright">&copy; 2026 Thompson Bikes. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
